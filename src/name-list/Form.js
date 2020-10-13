@@ -30,7 +30,7 @@ class Form extends Component {
 
 		return (
 			<form>
-				<label for="name">Name</label>
+				<label htmlFor="name">Name</label>
 				<input
 					type="text"
 					name="name"
@@ -38,7 +38,7 @@ class Form extends Component {
 					value={name}
 					onChange={this.handleChange}
 				/>
-				<label for="job">Job</label>
+				<label htmlFor="job">Job</label>
 				<input
 					type="text"
 					name="job"

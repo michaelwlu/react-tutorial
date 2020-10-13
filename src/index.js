@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './Api';
-import './index.css';
+import AppSwitcher from './AppSwitcher';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<AppSwitcher />, document.getElementById('root'));
